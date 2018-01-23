@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-MAINTAINER Anton Lamtev <antonlamtev@gmail.com>
+MAINTAINER Plutod Useoff <plutod.useoff@gmail.com>
 
 ENV CLOC_DISTRIBUTION=cloc-1.72.tar.gz \
 	CLOC_URL=https://github.com/AlDanial/cloc/releases/download/v1.72/cloc-1.72.tar.gz \
