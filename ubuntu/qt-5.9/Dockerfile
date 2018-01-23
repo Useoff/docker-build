@@ -11,6 +11,8 @@ RUN apt-get update && apt-get install -y \
 		qt59declarative \
 		qt59tools \
 		qt59translations \
+		qt59quickcontrols \
+		qt59quickcontrols2 \
 	&& rm -rf /var/lib/apt/lists/*
 
 ENV PATH /opt/qt59/bin:$PATH
